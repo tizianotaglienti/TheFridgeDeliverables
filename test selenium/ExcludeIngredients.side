@@ -1,0 +1,236 @@
+{
+  "id": "6f50b41f-3e56-4246-95ca-bcb7812e82f3",
+  "version": "2.0",
+  "name": "ExcludeIngredients",
+  "url": "http://localhost:8080/TheFridgeWeb",
+  "tests": [{
+    "id": "3887e5e7-6dc0-4550-b103-5089287ce0bb",
+    "name": "ExcludeIngredients",
+    "commands": [{
+      "id": "8c2c6273-058f-47a6-a059-75d8790eda67",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/TheFridgeWeb/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c0169f76-a2aa-41f0-90ad-5eb96413bb83",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1295x695",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ec7a6b20-5b33-4c1c-9f31-d7d151ae2344",
+      "comment": "",
+      "command": "click",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "518d7c60-e5ac-4860-8850-40f31b7d5fe7",
+      "comment": "",
+      "command": "type",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "vale"
+    }, {
+      "id": "22e305c4-b26d-4010-ba56-2d331d72aec2",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5b9e775e-b56b-4742-ad5b-28be3cb45d20",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [],
+      "value": "123456"
+    }, {
+      "id": "94828716-30b7-4eff-9877-f46cf5ac879c",
+      "comment": "",
+      "command": "click",
+      "target": "name=login",
+      "targets": [
+        ["name=login", "name"],
+        ["css=input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='login']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "83578eae-7b94-455f-adf5-90a1752fe245",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=ADD FOOD",
+      "targets": [
+        ["linkText=ADD FOOD", "linkText"],
+        ["css=.nav-links:nth-child(2) > li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'ADD FOOD')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'addFood.jsp')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'ADD FOOD')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "428200f8-e591-4fce-8ec4-10a1d2f39f34",
+      "comment": "",
+      "command": "click",
+      "target": "id=tags",
+      "targets": [
+        ["id=tags", "id"],
+        ["name=name", "name"],
+        ["css=#tags", "css:finder"],
+        ["xpath=//input[@id='tags']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0624e721-ec39-477e-a3af-ebae2c098990",
+      "comment": "",
+      "command": "type",
+      "target": "id=tags",
+      "targets": [
+        ["id=tags", "id"],
+        ["name=name", "name"],
+        ["css=#tags", "css:finder"],
+        ["xpath=//input[@id='tags']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Aniseed"
+    }, {
+      "id": "b88909a4-c7ae-4d69-a918-3107f02fea11",
+      "comment": "",
+      "command": "click",
+      "target": "id=quantityInpId",
+      "targets": [
+        ["id=quantityInpId", "id"],
+        ["name=quantity", "name"],
+        ["css=#quantityInpId", "css:finder"],
+        ["xpath=//input[@id='quantityInpId']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "83d4626e-3778-4b90-a743-9dd1d1c910e6",
+      "comment": "",
+      "command": "type",
+      "target": "id=quantityInpId",
+      "targets": [
+        ["id=quantityInpId", "id"],
+        ["name=quantity", "name"],
+        ["css=#quantityInpId", "css:finder"],
+        ["xpath=//input[@id='quantityInpId']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "4"
+    }, {
+      "id": "6c834156-77bd-46cd-85d8-0b4f52f75f49",
+      "comment": "",
+      "command": "click",
+      "target": "id=addFoodButtonId",
+      "targets": [
+        ["id=addFoodButtonId", "id"],
+        ["name=add", "name"],
+        ["css=#addFoodButtonId", "css:finder"],
+        ["xpath=//input[@id='addFoodButtonId']", "xpath:attributes"],
+        ["xpath=//input[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2c288ebb-72e4-43a9-88fe-ecd17d143d20",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=HOME",
+      "targets": [
+        ["linkText=HOME", "linkText"],
+        ["css=.nav-links:nth-child(2) > li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'HOME')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'home.jsp')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'HOME')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "87744606-283f-4136-937b-fda7eb1b5e49",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=tr:nth-child(1) > #nameColumn > label",
+      "targets": [
+        ["css=tr:nth-child(1) > #nameColumn > label", "css:finder"],
+        ["xpath=//td[@id='nameColumn']/label", "xpath:idRelative"],
+        ["xpath=//label", "xpath:position"],
+        ["xpath=//label[contains(.,'Aniseed')]", "xpath:innerText"]
+      ],
+      "value": "Aniseed"
+    }, {
+      "id": "6cfe62f9-9c68-4345-b631-90b44ce9051b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=RECIPES",
+      "targets": [
+        ["linkText=RECIPES", "linkText"],
+        ["css=.nav-links:nth-child(4) > li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'RECIPES')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'recipes.jsp')]", "xpath:href"],
+        ["xpath=//ul[2]/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'RECIPES')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b657f5d0-8d34-48b4-aee7-1a156c701d5f",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=option:nth-child(1)",
+      "targets": [
+        ["css=option:nth-child(1)", "css:finder"],
+        ["xpath=//option[@value='Aniseed']", "xpath:attributes"],
+        ["xpath=//option", "xpath:position"],
+        ["xpath=//option[contains(.,'Aniseed')]", "xpath:innerText"]
+      ],
+      "value": "Aniseed"
+    }, {
+      "id": "617e72d0-0c69-41b9-a0a5-c7543797b486",
+      "comment": "",
+      "command": "click",
+      "target": "css=option:nth-child(1)",
+      "targets": [
+        ["css=option:nth-child(1)", "css:finder"],
+        ["xpath=//option[@value='Aniseed']", "xpath:attributes"],
+        ["xpath=//option", "xpath:position"],
+        ["xpath=//option[contains(.,'Aniseed')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "a9399df4-19ef-46b2-8313-1ed968c938fd",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["3887e5e7-6dc0-4550-b103-5089287ce0bb"]
+  }],
+  "urls": ["http://localhost:8080/", "http://localhost:8080/TheFridgeWeb"],
+  "plugins": []
+}

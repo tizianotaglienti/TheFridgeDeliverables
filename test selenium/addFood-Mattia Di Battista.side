@@ -1,0 +1,268 @@
+{
+  "id": "1cf725ee-6375-484a-95e4-4bbe4bc24b69",
+  "version": "2.0",
+  "name": "test",
+  "url": "http://localhost:8080/TheFridgeWeb/",
+  "tests": [{
+    "id": "94afa33b-1ae7-4019-bb61-c5fe71eeee03",
+    "name": "testAddFood",
+    "commands": [{
+      "id": "ea7905c9-7662-435b-a3e8-a75060f3fc73",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/TheFridgeWeb/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "893cb773-1068-427f-a3f4-0fe3525b19d5",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "946x625",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d2c7ff3f-63de-4608-bbca-99509dab697b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.signin",
+      "targets": [
+        ["css=.signin", "css:finder"],
+        ["xpath=//div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "27a959fd-abaf-4a3a-bb41-6e7c8b79bb02",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Sign up",
+      "targets": [
+        ["linkText=Sign up", "linkText"],
+        ["css=a", "css:finder"],
+        ["xpath=//a[contains(text(),'Sign up')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'signup.jsp')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Sign up')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ea455e80-0455-4805-8847-ce1b0f660364",
+      "comment": "",
+      "command": "click",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=input:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0e920f13-82ac-4ad4-b54a-3e8127a0f7e9",
+      "comment": "",
+      "command": "type",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=input:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "provaAccount"
+    }, {
+      "id": "d3a22cbb-2608-4ca3-9845-c1b1eabfff01",
+      "comment": "",
+      "command": "click",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=input:nth-child(5)", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "73de1601-a600-42f1-b65c-90d07afc3aac",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=input:nth-child(5)", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "test@gmail.com"
+    }, {
+      "id": "c9c2a2ff-8740-46e5-8c59-95d7db84e8b0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.signup",
+      "targets": [
+        ["css=.signup", "css:finder"],
+        ["xpath=//body/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "34bb5d04-664a-4c80-8893-81c7fa15839a",
+      "comment": "",
+      "command": "click",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=input:nth-child(8)", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a879804a-fc32-4cda-b405-ef48a5f1d3b4",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=input:nth-child(8)", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": "123456"
+    }, {
+      "id": "7c1307fc-2d78-4b06-ba1c-1def54c92f35",
+      "comment": "",
+      "command": "click",
+      "target": "name=signup",
+      "targets": [
+        ["name=signup", "name"],
+        ["css=input:nth-child(11)", "css:finder"],
+        ["xpath=//input[@name='signup']", "xpath:attributes"],
+        ["xpath=//input[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2b676051-76c6-4569-b207-6f8efdef506a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=ADD FOOD",
+      "targets": [
+        ["linkText=ADD FOOD", "linkText"],
+        ["css=.nav-links:nth-child(2) > li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'ADD FOOD')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'addFood.jsp')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'ADD FOOD')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d9087363-14cb-412e-9bef-80dc7f84ee30",
+      "comment": "",
+      "command": "click",
+      "target": "id=tags",
+      "targets": [
+        ["id=tags", "id"],
+        ["name=name", "name"],
+        ["css=#tags", "css:finder"],
+        ["xpath=//input[@id='tags']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "00cf72d8-9588-4dbf-9d21-04f21167f7ad",
+      "comment": "",
+      "command": "type",
+      "target": "id=tags",
+      "targets": [
+        ["id=tags", "id"],
+        ["name=name", "name"],
+        ["css=#tags", "css:finder"],
+        ["xpath=//input[@id='tags']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Apple-juice"
+    }, {
+      "id": "886a7ce1-998b-4fd7-8f1d-9e5aefe18a5a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.addFood",
+      "targets": [
+        ["css=.addFood", "css:finder"],
+        ["xpath=//div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2f435903-b5ce-44bb-b535-4122a85308c5",
+      "comment": "",
+      "command": "click",
+      "target": "id=quantityInpId",
+      "targets": [
+        ["id=quantityInpId", "id"],
+        ["name=quantity", "name"],
+        ["css=#quantityInpId", "css:finder"],
+        ["xpath=//input[@id='quantityInpId']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6a42ce73-5453-495f-97d3-e726b17d236f",
+      "comment": "",
+      "command": "type",
+      "target": "id=quantityInpId",
+      "targets": [
+        ["id=quantityInpId", "id"],
+        ["name=quantity", "name"],
+        ["css=#quantityInpId", "css:finder"],
+        ["xpath=//input[@id='quantityInpId']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "4"
+    }, {
+      "id": "02db82bb-6f39-4030-a9a9-184875f8f9ad",
+      "comment": "",
+      "command": "click",
+      "target": "id=addFoodButtonId",
+      "targets": [
+        ["id=addFoodButtonId", "id"],
+        ["name=add", "name"],
+        ["css=#addFoodButtonId", "css:finder"],
+        ["xpath=//input[@id='addFoodButtonId']", "xpath:attributes"],
+        ["xpath=//input[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "878186e5-b00a-4200-ae45-ce1818970727",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=HOME",
+      "targets": [
+        ["linkText=HOME", "linkText"],
+        ["css=.nav-links:nth-child(2) > li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'HOME')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'home.jsp')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'HOME')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1500af4b-60a7-4201-8aab-94546aa5f5c5",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=#quantityColumn > label",
+      "targets": [
+        ["css=#quantityColumn > label", "css:finder"],
+        ["xpath=//td[@id='quantityColumn']/label", "xpath:idRelative"],
+        ["xpath=//td[2]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'4')]", "xpath:innerText"]
+      ],
+      "value": "4"
+    }]
+  }],
+  "suites": [{
+    "id": "ab058596-66e4-4ae9-a348-65cd57cb7c26",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["http://localhost:8080/", "http://localhost:8080/TheFridgeWeb/"],
+  "plugins": []
+}

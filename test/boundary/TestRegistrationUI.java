@@ -1,5 +1,5 @@
 /**
- * @author Tiziano Taglienti
+ * Tested by Tiziano Taglienti
  */
 package test.boundary;
 
